@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+/* HEADER */
+header{
+    height: 90px;
+    padding: 1px;
+    background-color: #434137;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+h1{
+    position: absolute;
+    padding: 5px;
+    float: left;
+    margin-left: 5%;
+    margin-top: 20px;
+    color: #ededed;
+}
+
+ul div{
+    width: auto;
+    float: right;
+    margin-right: 5%;
+    margin-top: 15px;
+    line-height: 25px;
+}
+
+b{
+    color: #ededed;
+}
+
+nav .button-signout{
+    margin-bottom: 20px;
+    text-align:center;
+}
+
+.button-signout input{
+    background-color: #f44336;
+    color: #ededed;
+    font-size: 16px;
+    padding: 4px 8px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button-signout input:hover{
+    background-color: #dc3c30;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #a39976;
+}
+
+input{
+    margin: 8px 0;
+    box-sizing: border-box;
+    padding: 12px 20px;
+}
+
+.button{
+    text-align: center;
+}
+
+form .button{
+    height: 60px;
+    margin: 40px 0;
+}
+
+form .button input{
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: #ededed;
+    background-color: #746b5a;
+}
+
+form .button input:hover{
+    background: #60584a;
+}
